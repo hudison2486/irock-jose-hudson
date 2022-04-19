@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>iRock - A rocha virtual de estimação </title>
+	<script type="text/javascript">
+		function resizeRock() {
+			document.getElementById(rockImg).style.height = (document.body.clientHeight - 100) * 0.9;
+		}
+		function greatUser() {
+			alert("Opa, eu sou sua pedra de estimação!!")
+		}
+		function touchRock() {
+			var userName = prompt ("Qual o seu nome?", 
+									"Coloque seu nome aqui");
+
+			if(userName) {
+				alert("Prazer te conhecer, " + userName + ".");
+				document.getElementById("rockImg").src = "C:/HUDSON/rock_happy.png";
+				setTimeout("document.getElementById('rockImg').src = 'C:HUDSON/rock.png';", 5000);
+			}
+		}
+	</script>
+</head>
+<body onload= "greatUser(); resizeRock()"; onresize="resizeRock();">
+	<div style="margin-top:50px;  text-align: center ;">
+		<img id="rockImg" src="C:\HUDSON\rock.png" alt="iRock"
+		style="cursor: pointer" onclick="touchRock();">
+	</div>
+
+
+	
+	
+	
+
+</body>
+</html>
