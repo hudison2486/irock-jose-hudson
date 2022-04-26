@@ -1,7 +1,5 @@
-@font-face {
-	font-family: AldotheApache;
-	src: url(fonts/AldotheApache.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
 
 body {
 	background-color: brown;
@@ -10,7 +8,17 @@ body {
 
 
 .tittle1 {
-	font-size: 30px;
+	font-family: 'Tapestry', cursive;
+	font-size: 35px;
 	color: yellow;
 }
 
+.tittle2 {
+	font-family: 'Bangers', cursive;
+	color: black;
+	font-size: 70px;
+}
+
+.img1 {
+	background-image:none !important;
+}
