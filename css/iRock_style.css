@@ -1,4 +1,7 @@
-@import url('https://fonts.google.com/specimen/Bangers?preview.size');
+@font-face {
+	font-family: AldotheApache;
+	src: url(fonts/AldotheApache.ttf);
+}
 
 body {
 	background-color: brown;
@@ -11,8 +14,3 @@ body {
 	color: yellow;
 }
 
-.tittle2 {
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-size: 50px;
-	color: blueviolet;
-}
