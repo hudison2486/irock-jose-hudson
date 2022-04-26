@@ -1,9 +1,18 @@
+@import url('https://fonts.google.com/specimen/Bangers?preview.size');
+
 body {
-	background-color: green;
+	background-color: brown;
 }
 
-.title_iRock {
+
+
+.tittle1 {
 	font-size: 30px;
-	color: white;
+	color: yellow;
 }
 
+.tittle2 {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 50px;
+	color: blueviolet;
+}

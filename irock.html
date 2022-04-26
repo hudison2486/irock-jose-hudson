@@ -9,6 +9,10 @@
 	<script type="text/javascript">
 		var userName;
 
+		function colorfull() {
+
+		}
+
 		function resizeRock() {
 			document.getElementById(rockImg).style.height = (document.body.clientHeight - 100) * 0.9;
 		}
@@ -44,11 +48,14 @@
 			
 	</script>
 </head>
-<body onload= "greatUser(); resizeRock()"; onresize="resizeRock();">
-	<div class="title_iRock" style="margin-top:  50px; text-align: center;" >
-		<b>iRock, a rocha de estimação</b>
+<body class="piscaPisca" onload= "greatUser(); resizeRock()"; onresize="resizeRock();">
+	<div class="tittle1" style="margin-top:  50px; text-align: center;" >
+		<b>iRock, a rocha de</b>
+	</div> 
+	<div class="tittle2" style="margin-top: 0px; text-align: center;">
+		<b>ESTIMAÇÃO</b>
 	</div>
-	<div style="margin-top:50px;  text-align: center ;">
+	<div style="margin-top:25px;  text-align: center ;">
 		<img class="img1" id="rockImg" src="C:\iRock\rock.png" alt="iRock"
 		style="cursor: pointer" onclick="touchRock();">
 	</div>
