@@ -1,9 +1,22 @@
+@font-face {
+	font-family: AldotheApache;
+	src: url(fonts/AldotheApache.ttf);
+}
+
 body {
-	background-color: green;
+	background-color: brown;
 }
 
-.title_iRock {
+
+
+.tittle1 {
 	font-size: 30px;
-	color: white;
+	color: yellow;
 }
 
+.tittle2 {
+	font-family: AldotheApache;
+	font-size: 37px;
+	
+
+}
