@@ -24,3 +24,14 @@ body {
 	font-size: 15px;
 	border-radius: 5px;
 }
+
+#column1 {
+	width: 690px;
+	float: left;
+	min-height: 300px;
+}
+
+#sidebar {
+	min-height: 300px;
+	margin-left: 600px;
+}

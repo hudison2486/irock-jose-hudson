@@ -44,21 +44,40 @@
 			
 	</script>
 </head>
-<body class="piscaPisca" onload= "greatUser(); resizeRock()"; onresize="resizeRock();">
-	
-	<div class="tittle1" style="margin-top:  50px; text-align: center;" >
-		<b>iRock, a rocha de</b>
-	</div> 
-	<div class="tittle2" style="margin-top: 10px; text-align: center;">
-		<b>ESTIMAÇÃO</b>
-	</div>
-	<div style="margin-top:0px; text-align: center ;">
-	<img class="img1" id="rockImg" src="C:\iRock\rock.png" alt="iRock" style="cursor: pointer" onclick="touchRock();" style="margin-top:0px; text-align: center ;">
-	<div>
-		<button class="bt1" style="margin-top: 10px; text-align: center;" 
-		onclick="alert('Você invadiu a NASA!!!')">
-			CHANGE
-		</button>
+<body onload= "greatUser(); resizeRock()"; onresize="resizeRock();">
+	<div id="main">
+		<div id="column1">
+			<div class="tittle1" style="margin-top:  50px; text-align: center;" >
+				<b>iRock, a rocha de</b>
+			</div> 
+			<div class="tittle2" style="margin-top: 10px; text-align: center;">
+				<b>ESTIMAÇÃO</b>
+			</div>
+			<div style="margin-top:0px; text-align: center ;">
+				<img class="img1" id="rockImg" src="C:\iRock\rock.png" alt="iRock" style="cursor: pointer" onclick="touchRock();" style="margin-top:0px; text-align: center ;">
+				<div>
+					<button class="bt1" style="margin-top: 10px; text-align: center;" 
+					onclick="alert('Você invadiu a NASA!!!')">
+						CHANGE
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="sidebar">
+			<form action="acesso.html" method="POST">
+				<div>
+					<label>Name</label>
+					<input>
+				</div>
+				<div>
+					<label>Password</label>
+					<input>
+				</div>
+				<button>Submit</button>
+			</form>
+		</div>
+
 	</div>
 
 
