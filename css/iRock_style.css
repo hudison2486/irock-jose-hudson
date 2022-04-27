@@ -28,10 +28,17 @@ body {
 #column1 {
 	width: 690px;
 	float: left;
-	min-height: 300px;
+	min-height: 580px;
+	background-color: #c27575;
 }
 
 #sidebar {
-	min-height: 300px;
-	margin-left: 600px;
+	min-height: 580px;
+	margin-left: 690px;
+	background-color: #c27580;
+}
+
+#form {
+	background-color: yellow;
+	min-height: 75px;
 }
