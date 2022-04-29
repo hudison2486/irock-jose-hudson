@@ -11,7 +11,7 @@
     <script>
         const logadoList = document.getElementById('logado');
         new URLSearchParams(window.location.search).forEach((value,
-        nome) => {
+        name) => {
             logadoList.append(`${name}: ${value}`);
             logadoList.append(document.createElement('br'));
         })
