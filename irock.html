@@ -7,6 +7,10 @@
 	<link rel="stylesheet" type="text/css" href="CSS/iRock_style.css">
 	<script type="text/javascript" src="cookie.js"></script>
 	<script type="text/javascript">
+		setTimeout(() => {
+			document.getElementById('splash').classList.toggle('fade');
+		}, 2000);
+
 		var userName;
 
 		function resizeRock() {
@@ -45,6 +49,9 @@
 	</script>
 </head>
 <body onload= "greatUser(); resizeRock()"; onresize="resizeRock();">
+	<div id="splash">
+		<img src="C:\iRock\logo.png" alt="" class="logo">
+	</div>
 	<div id="main">
 		<div id="column1">
 			<div class="tittle1" style="margin-top:  50px; text-align: center;" >
@@ -71,11 +78,11 @@
 						<h1 class="login1">LOGIN</h1>
 					</div>
 					<div>
-						<label class="labelName">Name</label>
-						<input id="name" name="Name" placeholder="Seu nome">
+						<label class="labelName">Login</label>
+						<input id="name" name="Name" placeholder="E-mail ou Usuário">
 					</div>
 					<div>
-						<label class="labelPass">Password</label>
+						<label class="labelPass">Senha</label>
 						<input id="pass" name="Password" placeholder="************" type="password">
 					</div>
 					<button>Submit</button>
